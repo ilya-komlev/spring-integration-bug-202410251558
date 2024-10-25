@@ -18,7 +18,7 @@ public class Main {
 
     public static void main(String[] args) {
         // To demonstrate the bug the path must have some combination of '[', ']', '(', ')'.
-        dirPath = args.length > 0 ? args[0] : "C:/[dir]";
+        dirPath = args.length > 0 ? args[0] : "[dir]";
         SpringApplication.run(Main.class, args);
     }
 
